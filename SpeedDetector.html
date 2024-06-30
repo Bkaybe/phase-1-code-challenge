@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Detector</title>
+  </head>
+  <body>
+    <div>
+      <h1>Speed Detector</h1>
+      <h3>Enter the speed of the car below:</h3>
+      <br /><br />
+
+      <input
+        type="number"
+        id="speedInpt"
+        placeholder="Enter speed of the car"
+      />
+      <!-- Invoking the speedChecker function when this button is called -->
+      <button onclick="speedChecker()">Check Demerit Points</button>
+    </div>
+
+    <script>
+      function speedChecker() {
+        //Instead of passing the speed variable as parameter/argument I am getting the speed directly from the html
+        const speed = document.getElementById("speedInpt").value;
+
+        const speedLimit = 70;
+        const demeritPoints = Math.ceil((speed - speedLimit) / 5); //getting the demerit points and converting it to the next nearest whole number
+
+        //for this I decided to use alert because there is now way a user will have to go to the developer tools to see the output.
+        if (speed <= speedLimit) {
+          alert("Ok");
+          console.log("Ok");
+        } else if (demeritPoints > 12) {
+          alert("License suspended");
+          console.log("Licence suspended");
+        } else {
+          alert(`Points: ${demeritPoints}`);
+          console.log(`Points: ${demeritPoints}`);
+        }
+      }
+    </script>
+  </body>
+</html>
