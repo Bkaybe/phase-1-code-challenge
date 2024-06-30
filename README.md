@@ -1,10 +1,12 @@
-PHASE 1 : JAVASCRIPT
+**PHASE 1 : JAVASCRIPT**
 
-SUBJECT: INDIVIDUAL CODE CHALLENGE
+**INDIVIDUAL CODE CHALLENGE**
 
 This repository contains three small-scale programs written in javascript.
 Each of them is addressing diffrent issues and if you want to get to know how they work and how to execute the programs feel free
 to read through this README file.
+
+HOW TO DOWNLOAD THIS PROGRAM AND RUN IT ON YOUR MACHINE
 
 1 . STUDENT GRADE GENERATOR USING JAVASCRIPT
 
