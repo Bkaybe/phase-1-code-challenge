@@ -76,8 +76,8 @@ function nSSFContribution(basicSalary) {
 
   // Tier 2 contribution
   let tier2Contribution = 0;
-  if (pensionableSalary > tier1Limit) {
-    const excessSalary = pensionableSalary - tier1Limit;
+  if (basicSalarySalary > tier1Limit) {
+    const excessSalary = basicSalary - tier1Limit;
     tier2Contribution = Math.min(excessSalary * tier1Rate, tier2Limit);
   }
 
