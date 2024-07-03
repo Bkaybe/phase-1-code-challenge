@@ -28,7 +28,7 @@
 
 1. Open your terminal in Ubuntu or the CLI in windows in your machine.
 2. Clone this repository to your machine by running the following command:
-   `git clone `
+   `git clone git@github.com:Bkaybe/phase-1-code-challenge.git`
 3. After cloning in the desired folder you can therefore open the project folder by right clicking anywhere within the project folder and choose open in terminal then type the following command on the terminal.
    `code .`
 4. It will open the project in vscode.
