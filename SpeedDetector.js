@@ -11,3 +11,5 @@ function speedChecker(speed) {
     console.log(`Points: ${demeritPoints}`);
   }
 }
+
+console.log(speedChecker(120));

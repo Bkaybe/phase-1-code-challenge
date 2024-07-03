@@ -1,36 +1,54 @@
-**PHASE 1 : JAVASCRIPT**
+# WK 1 CODE CHALLENGE : TOY PROBLEMS
 
-**INDIVIDUAL CODE CHALLENGE**
+## Prerequisites:
 
-This repository contains three small-scale programs written in javascript.
-Each of them is addressing diffrent issues and if you want to get to know how they work and how to execute the programs feel free
-to read through this README file.
+1.  Create a repository on your GitHub account.
 
-HOW TO DOWNLOAD THIS PROGRAM AND RUN IT ON YOUR MACHINE
+        NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
 
-1 . STUDENT GRADE GENERATOR USING JAVASCRIPT
+2.  Use JavaScript to wire down the solution.
 
-This program prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below:
+3.  Push the solution to the above repository once done.
 
-        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+4.  Submit the repository link for grading.
 
-~ HOW TO RUN THE PROGRAM
-To run the program just open the Student Grade Generator html file and launch the live server and once you key in your marks
-the corresponding marks will be displayed.
+5.  Ensure your repository has a well written README.
 
-2. SPEED DETECTOR PROGRAM
+## System Requirements
 
-This program takes the speed of a car as input e.g 80. If the speed is less than 70, it prints “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and print the total number of demerit points.
+- Node 18+
+- A browser capable of running Javascript (Chrome, Firefox)
+- Operating system (Windows, Linux, MacOS)
+- Text editor capable of running Javascript (Vs code)
+- RAM above 8GB
 
-> For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+## Installtion
 
-~ HOW TO RUN THE PROGRAM
-To execute the program all you have to do is to open the SpeedDetector html file and launch the live server and once it has opened in the browser key in the required data and watch the magic unfold.
+### Alternative One
 
-3. SALARY CALCULATOR
+1. Open your terminal in Ubuntu or the CLI in windows in your machine.
+2. Clone this repository to your machine by running the following command:
+   `git clone `
+3. After cloning in the desired folder you can therefore open the project folder by right clicking anywhere within the project folder and choose open in terminal then type the following command on the terminal.
+   `code .`
+4. It will open the project in vscode.
 
-This programs major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculates the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
+### Alternative two
 
-    ~HOW TO RUN THE PROGRAM
-    For this it is diffrent from the others as you'll have to open the program in the SalaryCalculator.js file and once there you open the terminal and type node.js ./SalaryCalculator.js then press enter. Once in the node enviroment you can invoke the function by using this
-    calculateSalary(basicSalary, benefits) and passing in the required parameters and watch the magic unfold.
+1. The second alternative will be to download the project folder from github direct.
+2. Once downloaded you can then go ahead to the downloads folder in your file system and then go ahead and unzip the compressed folder.
+3. If you want to open the folder in vscode go to the vscode and launch it and then at the top left corner click on the File tab and then choose open folder and navigate to the project folder location and select it to open it.
+
+## Running the programs
+
+To run the programs follow the steps below:
+
+1. Launch the live server from the bottom right of the vscode window and then waith for the blank page to launch on your browser.
+
+2. Once the page has loaded, right click anywhere within the page and from the drop down menu that apears select the inspect option.
+
+3. The inspect option will lead you to the developer tools and then select the console tab above and the results for the each code will be displayed.
+
+4. You can go ahead and play around with the values for each function when they are invoked to see more instances of the program and how they perform.
+
+Author: Bethuel Khisa

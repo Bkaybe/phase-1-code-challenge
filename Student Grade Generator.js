@@ -8,21 +8,17 @@ function grading(marks) {
   }
 
   // using switch case to assign diffrent marks to respective grades
-  switch (true) {
-    case marks >= 79:
-      console.log("Your Grade is A");
-      break;
-    case marks >= 60:
-      console.log("Your Grade is B");
-      break;
-    case marks >= 49:
-      console.log("Your Grade is C");
-      break;
-    case marks >= 40:
-      console.log("Your Grade is D");
-      break;
-    default:
-      console.log("Your Grade is E");
-      break;
+  if (marks >= 79) {
+    console.log("A");
+  } else if (marks >= 60) {
+    console.log("B");
+  } else if (marks >= 49) {
+    console.log("C");
+  } else if (marks >= 40) {
+    console.log("D");
+  } else {
+    console.log("E");
   }
 }
+
+console.log(grading(60));
