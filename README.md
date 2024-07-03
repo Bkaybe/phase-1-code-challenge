@@ -41,14 +41,49 @@
 
 ## Running the programs
 
-To run the programs follow the steps below:
+### Challenge 1: Student Crade Calculator
 
-1. Launch the live server from the bottom right of the vscode window and then waith for the blank page to launch on your browser.
+\*_To run this program follow the steps below:_
+
+1.  Open the index.html file by right clicking anywhere within the index.html file and then selecting from the dropdown list this option - **"open with liveserver"**
+    **or rather**,,
+
+- Launch the live server from the bottom right of the vscode window and then waith for the blank page to launch on your browser.
 
 2. Once the page has loaded, right click anywhere within the page and from the drop down menu that apears select the inspect option.
 
-3. The inspect option will lead you to the developer tools and then select the console tab above and the results for the each code will be displayed.
+3. The inspect option will lead you to the developer tools and then select the console tab above and the result for the code will be displayed.
 
-4. You can go ahead and play around with the values for each function when they are invoked to see more instances of the program and how they perform.
+4. You can go ahead and play around with the values for each function when they are invoked to see more instances of the program and how they perform in the StudentGradeCalculator.js file in vscode.
 
-Author: Bethuel Khisa
+### Challenge 2: Speed Detector
+
+\*_To run this program follow the steps below:_
+
+1.  Open the index.html file by right clicking anywhere within the index.html file and then selecting from the dropdown list this option - **"open with liveserver"**
+    **or rather**,,
+
+- Launch the live server from the bottom right of the vscode window and then waith for the blank page to launch on your browser.
+
+2. Once the page has loaded, right click anywhere within the page and from the drop down menu that apears select the inspect option.
+
+3. The inspect option will lead you to the developer tools and then select the console tab above and the result for the code will be displayed.
+
+4. You can go ahead and play around with the values for each function when they are invoked to see more instances of the program and how they perform in the SpeedDetector.js file in vscode.
+
+### Challenge 3: Salary Calculator
+
+\*_To run this program follow the steps below:_
+
+1.  Open the index.html file by right clicking anywhere within the index.html file and then selecting from the dropdown list this option - **"open with liveserver"**
+    **or rather**,,
+
+- Launch the live server from the bottom right of the vscode window and then waith for the blank page to launch on your browser.
+
+2. Once the page has loaded, right click anywhere within the page and from the drop down menu that apears select the inspect option.
+
+3. The inspect option will lead you to the developer tools and then select the console tab above and the result for the code will be displayed.
+
+4. You can go ahead and play around with the values for each function when they are invoked to see more instances of the program and how they perform in the SalaryCalculator.js file in vscode.
+
+#### Author: Bethwel Khisa
